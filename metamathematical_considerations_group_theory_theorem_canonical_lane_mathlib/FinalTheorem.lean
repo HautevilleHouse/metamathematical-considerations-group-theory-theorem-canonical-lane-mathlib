@@ -1,0 +1,9 @@
+import metamathematical_considerations_group_theory_theorem_canonical_lane_mathlib.GateLemmas
+namespace HautevilleHouse
+namespace metamathematical_considerations_group_theory_theorem_canonical_lane_mathlib
+structure ConstrainedTheoremClosure where
+  admissible :: intro :: constraint :: consequence :: proof ::
+theorem canonical : ConstrainedTheoremClosure :=
+  ConstrainedTheoremClosure.intro
+end metamathematical_considerations_group_theory_theorem_canonical_lane_mathlib
+end HautevilleHouse

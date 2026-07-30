@@ -1,0 +1,18 @@
+import canonicalLaneMathlib.AdmissibleClass
+import MetamathematicalFoundation.lean
+import ZermeloFraenkelGroupTheory.lean
+import GroupTheoryMetatheorem.lean
+
+namespace HautevilleHouse
+namespace MetamathematicalConsiderationsGroupTheoryTheoremCanonicalLaneLean
+
+open HautevilleHouse.MetamathematicalConsiderationsGroupTheoryTheoremCanonicalLaneLean
+
+definition ConstrainedMetamathematicalGroupTheoryClosure (A : AdmissibleClass) : Prop :=
+  bridgeClosed A ∧ gateClosed A
+
+theorem constrained_metamathematical_group_theory_endgame (A : AdmissibleClass) : ConstrainedMetamathematicalGroupTheoryClosure A := by
+  exact And.intro (bridge_from_admissible_class A) (gate_from_admissible_class A)
+
+end MetamathematicalConsiderationsGroupTheoryTheoremCanonicalLaneLean
+end HautevilleHouse
